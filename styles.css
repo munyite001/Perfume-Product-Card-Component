@@ -1,0 +1,136 @@
+/*  VARIABLES   */
+:root {
+  /*  Colors  */
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --dark-blue: hsl(212, 21%, 14%);
+  --white: hsl(0, 0%, 100%);
+
+  /*  Typography */
+  --font-paragraph: 14px;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-weight-b: 700;
+  --font-weigth-l: 500;
+  --font-fraunces: "Fraunces", sans-serif;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* General Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: var(--font-paragraph);
+  padding: 1rem;
+}
+
+main {
+    margin: 1rem auto;
+    width: 100%;
+    background-color: var(--cream);
+    padding: 1rem;
+    box-shadow: var(--light-shadow);
+}
+
+.container{
+    margin: 1rem auto;
+    background-color: var(--white);
+    margin: 1rem auto;
+    border-radius: 15px;
+    padding-bottom: .5rem;
+}
+
+/* Images */
+#mobile-image{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px;
+}
+#desktop-image{
+    width: 0;
+    height: 0;
+}
+
+
+/* Text Section */
+.text-section{
+    margin: 1rem;
+    
+}
+
+
+.intro-title{
+    display: inline-block;
+    letter-spacing: .25rem;
+    text-transform: uppercase;
+    font-weight:var(--font-weigth-l);
+    font-family: var(--font-fraunces);
+    opacity: 0.6;
+    margin-top: .5rem;
+
+}
+
+h1{
+    font-family: var(--font-fraunces);
+    font-weight: var(--font-weight-b);
+    text-transform: capitalize;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 1rem 0;
+}
+
+.text{
+    font-family: var(--font-montserrat);
+    opacity: 0.6;
+    margin: 1rem 0;
+
+}
+
+/* Price */
+
+.price-section{
+    display: flex;
+    align-items: center;
+}
+.price-tag{
+    color: var(--dark-cyan);
+    font-weight: var(--font-weight-b);
+    font-size: 30px;
+    font-family: var(--font-fraunces);
+    margin-right: 1rem;
+}
+.price-strike-through{
+    text-decoration: line-through;
+    font-weight: var(--font-weigth-l);
+    opacity: 0.7;
+}
+
+.btn{
+    display: block;
+    margin: 1rem auto;
+    width: 90%;
+    height: 3rem;
+    color: var(--white);
+    background-color: var(--dark-cyan);
+    border: none;
+    border-radius:0.5rem;
+    font-weight: var(--font-weight-b);
+    
+}
+
+.cart{
+    margin: 0 .5rem 0 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

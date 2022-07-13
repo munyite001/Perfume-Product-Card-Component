@@ -17,8 +17,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Overview
 The challenge was to build out the given design and ensure that it was responsive based on the provided mobile and desktop designs
-!['Desktop Design'](./images/image-product-desktop.jpg)
-!['Mobile Design'](./images/image-product-mobile.jpg)
+!['Desktop Design'](./design/desktop-design.jpg)
+!['Mobile Design'](./design/mobile-design.jpg)
 
 I'd rate the challenge at a beginner level.
 It took me about three hours from start to completion
